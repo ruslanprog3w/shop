@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.btn{
+    padding: .8rem 2.5em;
+    text-transform: uppercase;
+    background: #fff;
+    color: var(--orange);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: black;
+}
+.title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.title h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    line-height: 2;
+    color: var(--orange);
+}
+.line,
+.line4{
+    background-image: url('img/images.jpg');
+    width: 100%;
+    height: 100px;
+    margin-top: -3.6rem;
+}
+.line{
+    margin-bottom: 10rem;
+}
+.line2,
+.line3{
+    background-image: url('img/images.jpg');
+    width: 100%;
+    height: 100px;
+    margin-top: -3.5rem;
+}
+.line3{
+    margin-top: -3.5rem;
+    margin-bottom: 7rem;
+}
+input,
+button,
+textarea{
+    outline: none;
+    border: 1px solid #e90808fb;
+    background: transparent;
+    width: 100%;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+/*form-container*/
+.message{
+    text-align: center;
+    text-align: center;
+    width: 600px;
+    height: 60px;
+    border-radius: 10px;
+    background: black;
+    color: red;
+    display: flex;
+    align-items: center;
+    margin-left: 640px;
+    border: 1px solid #fff;
+    transition: 0.5s;
+    justify-content: center;
+    font-size: 1.5em;
+    justify-content: space-between;
+    padding: 10px;     
+}
+.message:hover{
+    border: 1px solid rgb(115, 176, 23);
+   
+}
+.message i{
+    cursor: pointer;
+    color: #fff;
+    transition: 0.5s;
+    margin-right: 5px;
+}
+.message i:hover{
+    font-size: 1.5em;
+}
+.form-container{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 4rem 0;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    }
+form h1{
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+}
+form{
+    height: 700px;
+    width: 600px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: 0.5s;
+    position: absolute;
+    margin-left: 640px;
+    position: absolute; 
+    position: fixed;
+    margin-top: 60px;
+}
+form:hover{
+    border: 2px solid rgb(115, 176, 23);
+}
+form input{
+    height: 60px;
+    width: 400px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    display: table-cell;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    transition: 0.5s;
+}
+form input:hover{
+    border: 2px solid rgb(115, 176, 23);
+}
+form .btn{
+    height: 60px;
+    width: 300px;
+    border: 2px solid #fff;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    margin-left: 150px;
+    padding: 10px;
+    transition: 0.5s;
+   
+}
+form .btn:hover{
+   color: rgb(115, 176, 23);
+}
+form p{
+    color: #fff;
+    font-size: 2em;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+form a{
+    color: red;
+    border-bottom: 1px solid red;
+    padding: 5px 8px;
+    transition: 0.5s;
+}
+form a:hover {
+    color: rgb(115, 176, 23);
+    border-bottom: 1px solid rgb(115, 176, 23);
+}
+.input-field label{
+color: #fff;
+}
+.formlog{
+    height: 480px;
+    margin-top: 150px;
+}
+.formlog p{
+    margin-left: 5px;
+}
+.field3{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.input-field input{
+    background: rgba(0, 0, 0, 0.7);
+}
+
